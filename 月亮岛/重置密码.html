@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>重置密码</title>
+    <link href="app/common/css/reset.css" rel="stylesheet">
+    <link href="app/common/css/bootstrap.css" rel="stylesheet">
+    <link href="app/common/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="app/common/css/common.css" rel="stylesheet">
+    <link href="./app/login/css/login.css" rel="stylesheet" />
+    <style type="text/css">
+        .row > div{
+            background:red;
+        }
+        .row{
+            margin-right: 0px;
+            margin-left: 0px;
+        }
+    </style>
+</head>
+<body>
+
+<div id="app" class="main">
+    <div class="container">
+        <section class="login fn-clear">
+            <article class="fn-clear">
+                <h3 style="color: #212121;">请输入您的注册手机号</h3>
+                <h5 style="color: #949494;">验证码将发送到您的手机</h5>
+            </article>
+            <article class="fn-clear">
+                <div id="close" class="fn-clear">
+                    <a href="./reset.html" style="color: #000;text-decoration: none;">X<button type="button" class="">CLOSED</button></a>
+                </div>
+                <div class="form-group">
+                    <div class="eyes">
+                        <input type="text" class="form-control input-lg inp" id="phone" placeholder="手机号" />
+                        <input type="password" class="form-control input-lg inp" id="psd" placeholder="新密码" />
+                        <span></span>
+                    </div>
+                    <div class="input-group">
+                        <input type="email" class="form-control input-lg inp" id="newpsd" style="border-bottom: 1px solid #ccc;" placeholder="6位数短信验证码">
+                        <div class="input-group-addon" style="">免费验证码</div>
+                    </div>
+                </div>
+                <div class="sure">
+                    <button>确认更改</button>
+                </div>
+            </article>
+        </section>
+    </div>
+</div>
+<script type="text/javascript" src="./app/common/js/jquery-1.12.0.min.js"></script>
+<script type="text/javascript" src="./app/common/js/jquery-migrate-1.4.1.min.js"></script>
+<script type="text/javascript" src="./app/common/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="./app/login/js/login.js"></script>
+</body>
+</html>

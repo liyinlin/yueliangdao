@@ -1,0 +1,129 @@
+/*pc端*/
+body,
+.container-fluid{
+    padding:0px;
+}
+.list a:hover, .list a:focus {
+
+    text-decoration: none;
+}
+/*列表*/
+@media (min-width: 1200px){
+    .list{
+        margin-left: 15px;
+    }
+}
+.list{
+    width: 100%;
+    margin-left: 0px;
+    overflow: hidden;
+}
+.list .swiper-container{
+    margin-left: -2px;
+}
+.list .swiper-container,
+.list .swiper-slide{
+    max-width: 100%;
+    overflow: hidden;
+}
+.list .swiper-img{
+    max-width: 100%;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+.list .swiper-img img ,.list .swiper-container img{
+    width: 100%;
+}
+.list .swiper-pagination {
+    position: static;
+    text-align: right;
+    height: 20px;
+}
+.swiper-pagination-bullet{
+    border-radius: 0px;
+    background: #cdcdcd;
+    filter: alpha(opacity=100);
+    opacity: 1;
+}
+.swiper-pagination-bullet-active{
+    background: #171717;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet{
+    margin: 0px 2px;
+}
+.list a:-webkit-any-link,
+.list a:-moz-any-link,
+.list a:any-link,
+.list a:hover,
+.list a:focus{
+    text-decoration: none;
+}
+
+.list .col-xs-6,
+.list .col-sm-3{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.list h4,
+.list p,
+.list span,
+.list .info_list{
+   padding-left: 5px;
+}
+.list h4{
+    color: #333;
+    font-size: 16px;
+}
+.list .text-muted{
+    color: #666;
+    font-size: 14px;
+}
+.list>a{
+    margin-top: 30px;
+    display: block;
+    overflow: hidden;
+}
+.list .text{
+    font-size: 12px;
+    color: #8a8a8a;
+    line-height: 18px;
+    height: 54px;
+    padding-right: 30px;
+}
+.list .info_list{
+    width: 100%;
+    padding-right: 10px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    height: 20px;
+}
+.list .info_list>span{
+    font-size: 10px;
+    color: #d31a44;
+    border: 1px solid #c1bdbe;
+    border-radius: 10px;
+    line-height: 10px;
+    margin-right: 2px;
+    padding: 3px 4px 2px;
+}
+.list .info_list .colorl{
+    color: #91bbad;
+    /*display: none;*/
+}
+@media screen and (max-width: 768px){
+    .list .text{
+        display: none;
+    }
+    .list>a{
+        margin-top: 0px;
+    }
+    .list .info_list{
+        margin-top: 10px;
+    }
+    .list .swiper-container{
+        margin-left: 0px;
+    }
+    .list .info_list .colorl{
+        display: inline;
+    }
+}

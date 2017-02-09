@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册新会员</title>
+    <link href="app/common/css/reset.css" rel="stylesheet">
+    <link href="app/common/css/bootstrap.css" rel="stylesheet">
+    <link href="app/common/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="app/common/css/common.css" rel="stylesheet">
+    <link href="./app/login/css/login.css" rel="stylesheet" />
+    <style type="text/css">
+        .row > div{
+            background:red;
+        }
+        .row{
+            margin-right: 0px;
+            margin-left: 0px;
+        }
+    </style>
+</head>
+<body>
+
+<div id="app" class="main">
+    <div class="container">
+        <section class="login fn-clear">
+            <article class="fn-clear">
+                <h1 style="color: #212121;">注册新会员</h1>
+                <h5 style="color: #949494;">WELCOME TO JOIN US!</h5>
+            </article>
+            <article class="fn-clear">
+                <div class="form-group">
+                    <label class="control-label" for="username" >会员名</label>
+                    <input type="text" class="form-control input-lg inps" id="username" />
+                </div>
+                <div class="form-group">
+                    <label class="control-label" for="phone">手机号</label>
+                    <input type="text" class="form-control input-lg inps" id="phone" />
+                </div>
+                <div class="form-group">
+                    <label class="control-label" for="psd">密码（不少于6位）</label>
+                    <input type="password" class="form-control input-lg inps" id="psd" />
+                </div>
+
+                <div class="form-group">
+                    <label class="control-label" for="authCode">6位数验证码</label>
+                    <div class="input-group">
+                        <input class="form-control input-lg inps" id="authCode" type="text" />
+                        <div class="input-group-addon" style="color: #b5b5b5;">免费验证码</div>
+                    </div>
+                </div>
+                    <div class="btn fn-clear">
+                        <button type="button" class="">确认注册</button>
+                    </div>
+                    <div class="fn-clear" style="padding: 10px 0px;text-align: right;color: #96979a;font-size: 12px;">
+                        点击确认注册,代表您同意《<a href="javascript:;" style="color: #2e2e2e;text-decoration: underline;">M&I用户协议</a>》
+                    </div>
+            </article>
+        </section>
+    </div>
+</div>
+<script type="text/javascript" src="./app/common/js/jquery-1.12.0.min.js"></script>
+<script type="text/javascript" src="./app/common/js/jquery-migrate-1.4.1.min.js"></script>
+<script type="text/javascript" src="./app/common/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="./app/login/js/login.js"></script>
+</body>
+</html>

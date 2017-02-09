@@ -1,0 +1,177 @@
+.main .bink_select{
+	padding: 18px 0;
+	border-bottom: 1px solid #e5e5e5; 
+}
+.main .bink_select .style_menu{
+	text-align: center;
+	height: 30px;
+}
+.main .bink_select .style_menu a{
+	display: inline-block;
+	margin: 0 16px;
+	padding: 5px 0;
+	font-size: 14px;
+	color: #3e3e3e;
+}
+.main .bink_select .style_menu .xian{
+	border-bottom: 1px solid #000;
+	text-decoration: none;
+}
+.main .bink_select h3{
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	color: #282828;
+	margin: 28px 0 60px;
+}
+.main .bink_select .style_xuan{
+	text-align: center;
+	display: none;
+}
+
+.main .bink_select .style_xuan li{
+	display: inline-block;
+	padding: 0 10px;
+	height: 37px;
+	border: 1px solid #e9e9e9;
+	border-radius: 20px;
+	margin: 5px 5px;
+	text-align: center;
+	line-height: 37px;
+	font-size: 16px;
+	color: #676662;
+	cursor: pointer;
+}
+.main .bink_select .style_xuan .xuan{
+	background: #000;
+	color: #fff;
+}
+.main .bink_select .nav{
+	
+	margin-top: 128px;
+}
+.main .bink_select .nav p{
+	float: left;
+	font-size: 14px;
+	margin-top: 5px;
+}
+.main .bink_select .nav p strong{
+	color: #1d1d1d;
+	font-weight: bold;
+	padding-right:18px; 
+	margin-right: 13px;
+	border-right: 1px solid #000;
+}
+
+#order{
+	float: right;
+}
+#order .select-list ul li.selected,#order .select-list ul li:hover{
+	background: #1e90ff;
+	color: #fff;
+}
+/*手机端样式*/
+.mobile .bink_select{
+	border-bottom: 1px dashed #cecece;
+}
+.mobile .bink_select .style_menu{
+	overflow: hidden;
+	height: auto;
+	border-right: 1px solid #e9e9e9;
+	border-bottom: 1px solid #e9e9e9;
+	color: #333;
+	font-weight: bold;
+	font-size: 14px;
+}
+.mobile .bink_select .style_menu a{
+	float: left;
+	width: 25%;
+	height: 40px;
+	margin: 0;
+	padding: 0;
+	line-height: 40px;
+	text-align: center;
+	border-left: 1px solid #e9e9e9;
+	border-top: 1px solid #e9e9e9;
+}
+.mobile .bink_select .style_menu .xian{
+	text-decoration: none;
+	background: #ccc;
+	color: #fff;
+}
+.mobile .bink_select h3{
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	color: #282828;
+	margin: 12px 0 16px;
+}
+.mobile .bink_select .style_xuan{
+	text-align: center;
+	display: none;
+}
+.bink_select .style_tab .shows{
+	display: block;
+}
+.mobile .bink_select .style_xuan li{
+	display: inline-block;
+	padding: 0 10px;
+	height: 28px;
+	border: 1px solid #e9e9e9;
+	border-radius: 20px;
+	text-align: center;
+	line-height: 28px;
+	font-size: 14px;
+	color: #676662;
+}
+.mobile .bink_select .mobile_nav{
+	margin: 10px auto 0;
+	color: #1a1a1a;
+}
+#mobile_order{
+	border: none;
+	background: url(../img/bot_point.png) right center no-repeat;
+	background-size: 16px 8px;
+}
+#mobile_order .select-down{
+	/*display:none;*/
+	border:none;
+	background: url(../img/bot_point.png) right center no-repeat;
+	background-size: 16px 8px;
+	width: 16px;
+	height: 22px;
+	top: 0!important;
+
+}
+#mobile_order .select-list ul li.selected,#mobile_order .select-list ul li:hover{
+	background: #1e90ff;
+	color: #fff;
+}
+
+.bink_select .caret{
+	/*display:none;*/
+	border:none;
+	background: url(../img/bot_point.png) right center no-repeat;
+	background-size: 16px 8px;
+	width: 16px;
+	height: 22px;
+	top: 5px!important;
+
+}
+
+
+.bink_select .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn){
+	width: 200px;
+	float: right;
+}
+.bink_select .mobile_nav .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn){
+	width: 100%;
+	float: right;
+}
+.btn-default{
+	border-color:#fff;
+}
+.btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default{
+	border-color:#fff;
+}
+

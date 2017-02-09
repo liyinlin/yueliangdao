@@ -1,0 +1,133 @@
+.print_order{
+	padding: 90px 80px;
+}
+.print_order .p_o_left {
+	float: left;
+	font-size: 16px;
+}
+.print_order .p_o_left img{
+	width: 192px;
+	height: 82px;
+}
+.print_order .p_o_left ul,.print_order .p_o_right ul{
+	margin-top: 20px;
+	margin-right: 10px;
+}
+.print_order .p_o_left li,.print_order .p_o_right li{
+	height: 30px;
+	line-height: 30px;
+}
+.print_order .p_o_right{
+	float: right;
+	font-size: 16px;
+}
+.print_order .p_o_right .top{
+	height: 82px;
+	line-height: 82px;
+	font-size: 25px;
+	font-weight: bold;
+}
+.print_order .p_o_right .top sub{
+	font-size: 16px;
+	font-weight: normal;
+}
+.print_order .table{
+	border: 1px solid #000;
+	border-right: none; 
+	width: 1002px;
+	text-align: center;
+}
+.print_order .table .con{
+	margin: 0;
+}
+.print_order .table .xuhao{
+	float: left;
+	width: 50px;
+	margin: 0;
+}
+.print_order .table .xuhao .big{
+	height: 160px;
+	line-height: 160px;
+}
+.print_order .table .xuhao li{
+	height: 40px;
+	line-height: 40px;
+	border-right: 1px solid #000;
+	border-bottom: 1px solid #000;
+}
+.print_order .table .goods{
+	float: left;
+	width: 800px;
+	margin: 0;
+}
+.print_order .table .goods var{
+	font-weight: bold;
+}
+.print_order .table .goods li{
+	height: 40px;
+	line-height: 40px;
+	border-right: 1px solid #000;
+	border-bottom: 1px solid #000;
+}
+.print_order .table .goods .canshu{
+	height: 120px;
+	border-right: none;
+}
+.print_order .table .goods .canshu ul{
+	float: left;
+	width: 20%;
+}
+.print_order .table .goods .canshu .big{
+	height: 80px;
+	line-height: 80px;
+}
+.print_order .table .num{
+	float: left;
+	width: 50px;
+	margin: 0;
+}
+.print_order .table .num li{
+	height: 40px;
+	line-height: 40px;
+	border-right: 1px solid #000;
+	border-bottom: 1px solid #000;
+}
+.print_order .table .num .big{
+	height: 160px;
+	line-height: 160px;
+}
+.print_order .table .price{
+	float: left;
+	width: 101px;
+	margin: 0;
+}
+.print_order .table .price li{
+	height: 40px;
+	line-height: 40px;
+	border-right: 1px solid #000;
+	border-bottom: 1px solid #000;
+}
+.print_order .table .price .big{
+	height: 160px;
+	line-height: 160px;
+}
+.print_order .table .footer .li1{
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	margin-left: 20px;
+}
+.print_order .table .footer .li1 span{
+	margin-left: 15px;
+}
+.print_order .table .footer .li2{
+	float: right;
+	height: 40px;
+	line-height: 40px;
+
+	margin-right: 20px;
+}
+.print_order .table .footer{
+	margin: 0;
+	border-right: 1px solid #000;
+}

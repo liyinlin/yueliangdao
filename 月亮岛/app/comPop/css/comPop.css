@@ -1,0 +1,121 @@
+.comPop{
+    width: 800px;
+    height: 800px;
+    margin: 50px auto;
+}
+.comPop .left{
+	width: 500px;
+	height: 800px;
+}
+.comPop .left img{
+	width: 500px;
+	height: 800px;
+}
+.comPop .right{
+	float: left;
+	width: 300px;
+	padding: 0 25px;
+}
+.comPop .right .user{
+	height: 70px;
+	margin-top: 26px;
+}
+.comPop .right .user .tx{
+	float: left;
+	width: 70px;
+	height: 70px;
+	margin-right: 10px;
+}
+.comPop .right .user .tx img{
+	width: 70px;
+	height: 70px;
+}
+.comPop .right .user .star{
+	float: left;
+}
+.comPop .right .user .star p{
+	margin: 0;
+}
+.comPop .right .user .star .p1{
+	height: 26px;
+	line-height: 26px;
+}
+.comPop .right .user .star .p2{
+	height: 20px;
+	line-height: 20px;
+	margin-top: 10px;
+}
+.comPop .right .user .star div{
+	height: 14px;
+	width: 70px;
+	background: url(../img/c_p_03.png) 0 0 repeat;
+}
+.comPop .right .buyer{
+	border: 1px solid #e6e6e6;
+	height: 50px;
+	padding: 5px 10px;
+	margin-top: 30px;
+}
+.comPop .right .buyer p{
+	margin: 0;
+	height: 20px;
+	line-height: 20px;
+	color: #999;
+}
+.comPop .right .text{
+	margin-top: 25px;
+	border-bottom: 1px solid #e6e6e6;
+}
+.comPop .right .text .p1{
+	text-align: justify;
+	margin-bottom: 25px; 
+}
+.comPop .right .text .time{
+	color: #ccc;
+	text-align: right;
+	margin: 0;
+}
+.comPop .right .thank .top{
+	height: 30px;
+	margin-top: 25px;
+}
+.comPop .right .thank .top p{
+	color: #999;
+	font-weight: bold;
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	margin: 0;
+}
+.comPop .right .thank .top span{
+	float: left;
+	width: 36px;
+	height: 20px;
+	border: 1px solid #c0c0c0;
+	text-align: center;
+	line-height: 20px;
+	margin: 5px 1px 0;
+}
+.comPop .right .thank .pop{
+	width: 250px;
+	height: 57px;
+	background: url(../img/c_p_04.png);
+	overflow: hidden;
+}
+.comPop .right .thank .pop .sure{
+	width: 225px;
+	height: 30px;
+	border: 1px solid #c0c0c0;
+	margin-top: 18px;
+	margin-left: 13px;
+	padding: 5px;
+}
+.comPop .right .thank .pop .sure .span2{
+	width: 36px;
+	height: 20px;
+	background: #5e5e5e;
+	color: #fff;
+	text-align: center;
+	line-height: 20px;
+	float: right;
+}

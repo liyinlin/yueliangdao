@@ -1,0 +1,42 @@
+section article:first-child div{
+    text-align: center;
+    font-size: 12px;
+    margin: 5px 0px;
+}
+section.order-detail{
+    width: 530px;
+}
+section.order-detail ul,section.order-detail ul li,section.order-detail ul li div{
+    padding: 0px;
+}
+ul li div:nth-child(2n+1){
+    text-align: left;
+}
+ul li div:nth-child(2n){
+    text-align: right;
+}
+section article:last-child div{
+    text-align: center;
+    margin: 10px 0px;
+}
+.order-table{
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+.order-table tr{
+    display: table-row;
+    padding-left: 0px;
+}
+table.order-table tr td{
+    padding: 5px 0px;
+    font-size: 12px;
+    color: #a1a1a1;
+    text-align: left;
+}
+.mobile .rows{
+    width: 100%;
+}
+.mobile .tds{
+    width: 45px;
+}

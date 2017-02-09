@@ -1,0 +1,803 @@
+.container {
+	padding-right: 0;
+	padding-left: 0;
+}
+.bg_grey{
+	background: #fafafa;
+	border-bottom: 1px #e3e3e3 solid;
+	border-top:1px #e3e3e3 solid;
+}
+/*面包屑*/
+.breadcrumb {
+	background: #fff;
+	text-align: right;
+}
+
+.breadcrumb>li {
+	display: inline;
+}
+
+.breadcrumb>li+li:before {
+	padding: 0 5px;
+	color: #3e3e3e;
+	content: "> ";
+}
+
+.breadcrumb>li a {
+	color: #3e3e3e;
+}
+
+.breadcrumb>li.active {
+	color: #3e3e3e;
+	font-weight: 700;
+}
+/*分页器*/
+.pagination-outer {
+	padding-top: 20px;
+	text-align: center;
+}
+
+.pagination>.active>a,
+.pagination>.active>a:focus,
+
+.pagination>.active>a:hover,
+
+.pagination>.active>span,
+
+.pagination>.active>span:focus,
+
+.pagination>.active>span:hover {
+	border-color: #000;
+	background-color: #000;
+}
+
+.pagination>li>a,
+
+.pagination>li>a:focus,
+
+.pagination>li>a:hover,
+
+.pagination>li>span,
+.pagination>li>span:focus,
+
+.pagination>li>span:hover {
+	color: #777;
+}
+
+.shop-alert-text {
+	padding: 75pt 10px;
+	height: 20px;
+	font-size: 12px;
+}
+/*页面标题*/
+.shop-info-title{
+	height: 50px;
+	padding-left:15px;
+	border-top:1px #e3e3e3 solid;
+	border-bottom:1px #e3e3e3 solid;
+	background: #fafafa;
+	line-height: 50px;
+	font-size:14px;
+}
+
+.shop-info-content.row{
+	padding:0 30px;
+}
+.shop-info-tt {
+	height: 50px;
+	text-indent: 2em;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 50px;
+}
+.shop-info-content {
+	
+	line-height: 50px;
+	border-bottom: none;
+}
+.shop-info-content div:nth-child(1){
+	font-weight: bold;
+}
+.shop-info-content div:nth-child(2){
+	height: 20px;
+	margin-top: 15px;
+	background-color: #fafafa;
+	line-height: 20px;
+	font-size: 12px;
+	text-align: right;
+	color:#356f9d;
+	font-weight: bold;
+	padding-right: 10px!important;
+}
+.shop-info-content div:nth-child(3){
+
+}
+/*标题*/
+/*星级评论*/
+/* star rating code - use lists because its more semantic */
+
+/* the default rating is placed as a background image in the ul */
+/* use the background position according to the table above to display the required images*/
+.rating{
+	width:80px;
+	height:16px;
+	margin:0 0 20px 0;
+	padding:0;
+	list-style:none;
+	clear:both;
+	position:relative;
+	background: url(../img/star.png) no-repeat 0 0;
+}
+/* add these classes to the ul to effect the change to the correct number of stars */
+.nostar {background-position:0 0}
+.onestar {background-position:0 -16px}
+.twostar {background-position:0 -32px}
+.threestar {background-position:0 -48px}
+.fourstar {background-position:0 -63px}
+.fivestar {background-position:0 -79px}
+ul.rating li {
+	cursor: pointer;
+ /*ie5 mac doesn't like it if the list is floated\*/
+	float:left;
+	/* end hide*/
+	text-indent:-999em;
+}
+ul.rating li a {
+	position:absolute;
+	left:0;
+	top:0;
+	width:16px;
+	height:16px;
+	text-decoration:none;
+	z-index: 200;
+}
+ul.rating li.one a {left:0}
+ul.rating li.two a {left:16px;}
+ul.rating li.three a {left:32px;}
+ul.rating li.four a {left:48px;}
+ul.rating li.five a {left:64px;}
+ul.rating li a:hover {
+	z-index:2;
+	width:80px;
+	height:16px;
+	overflow:hidden;
+	left:0;	
+	background: url(../img/star.png) no-repeat 0 0
+}
+ul.rating li.one a:hover {background-position:0 -16px;}
+ul.rating li.two a:hover {background-position:0 -32px;}
+ul.rating li.three a:hover {background-position:0 -48px}
+ul.rating li.four a:hover {background-position:0 -63px}
+ul.rating li.five a:hover {background-position:0 -79px}
+/* end rating code */
+
+
+
+
+
+
+.row {
+	margin: 0;
+}
+
+.row,
+.row div[class*=col] {
+	padding: 0;
+}
+
+.shop-info-list .row>div {
+	/*overflow: hidden;*/
+}
+
+.shop-info-list .title {
+	color: #333;
+	text-align: center;
+	font-size: 20px;
+	line-height: 5pc;
+}
+
+.shop-info-list .shop-title {
+	color: #666;
+}
+.shop-info-list .shop-title.bg_grey{
+	background: #fafafa;
+	border-bottom: 1px #e3e3e3 solid;
+	border-top:1px #e3e3e3 solid;
+}
+
+.shop-info-list .content,
+.shop-info-list .shop-title {
+	padding-right: 15px;
+	padding-left: 15px;
+	height: 40px;
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #999;
+	font-size: 13px;
+	line-height: 40px;
+}
+
+.shop-info-list .content {
+	background: #fafafa;
+	color: #686868;
+	text-align: right;
+}
+
+.shop-info-list .shop-title.row>div {
+	overflow: hidden;
+	height: 40px;
+}
+
+.shop-info-list .shop-title .shop-count,
+.shop-info-list .shop-title .shop-date,
+.shop-info-list .shop-title .shop-date-month,
+.shop-info-list .shop-title .shop-info,
+.shop-info-list .shop-title .shop-integral,
+.shop-info-list .shop-title .shop-minus,
+.shop-info-list .shop-title .shop-pic,
+.shop-info-list .shop-title .shop-price,
+.shop-info-list .shop-title .shop-product,
+.shop-info-list .shop-title .shop-productNumber,
+.shop-info-list .shop-title .shop-state,
+.shop-info-list .shop-title .shop-star,
+.shop-info-list .shop-title .shop-collect,
+.shop-info-list .shop-title .shop-comment,
+.shop-info-list .shop-title .shop-date-month,
+.shop-info-list .shop-title .shop-select>div {
+	text-align: center;
+}
+
+
+/*内容*/
+
+.shop-info-list .shop-content {
+	padding: 10px 15px;
+	min-width: 121px;
+	border-bottom: 1px solid #dedcdc;
+}
+
+.shop-info-list .shop-content .pic {
+	width: 73px;
+	height: 75pt;
+}
+
+.shop-info-list .shop-content .tt {
+	height: 50px;
+	color: #666;
+	font-family: Tahoma;
+	line-height: 70px;
+}
+
+.shop-info-list .shop-content .tt_color {
+	height: 30px;
+	color: #818181;
+	line-height: 10px;
+}
+
+.shop-info-list .shop-content .shop-info {
+	padding-top: 20px;
+}
+
+.shop-info-list .shop-content .shop-info .row {
+	padding-right: 15px;
+	padding-left: 15px;
+	color: #666;
+}
+
+.shop-info-list .shop-content .shop-minus input {
+	margin: 0;
+	padding: 0;
+	width: 50px;
+	height: 30px;
+	border: 1px solid #e3e3e3;
+	border-radius: 3px;
+	background-color: none;
+	color: #999;
+	text-align: center;
+	line-height: 30px;
+}
+
+.shop-info-list .shop-content .shop-count,
+.shop-info-list .shop-content .shop-date,
+.shop-info-list .shop-content .shop-date-month,
+.shop-info-list .shop-content .shop-product,
+.shop-info-list .shop-content .shop-productNumber,
+.shop-info-list .shop-content .shop-state,
+.shop-info-list .shop-content .shop-star,
+.shop-info-list .shop-content .shop-minus,
+.shop-info-list .shop-content .shop-integral,
+.shop-info-list .shop-content .shop-price,
+.shop-info-list .shop-content .shop-select>div {
+	height: 101px;
+	color: #999;
+	text-align: center;
+	line-height: 101px;
+}
+.shop-info-list .shop-content .shop-star >ul{
+	margin-top: 50px;
+	margin-left: 10px;
+}
+.shop-info-list .shop-content .shop-state{
+	color:#ff4029;
+}
+.shop-info-list .shop-count {
+	position: relative;
+}
+.shop-info-list .shop-content .shop-comment{
+	color:#999;
+	padding:20px 0;
+	line-height: 20px;
+}
+
+.shop-info-list .shop-content .shop-count > button {
+	position: absolute;
+	top: 34px;
+	z-index: 2;
+	width: 30px;
+	height: 30px;
+	border: 1px solid #e3e3e3;
+	background: 0 0;
+	color: #c9c9d4;
+	text-align: center;
+	line-height: 30px;
+}
+
+.shop-info-list .shop-content .shop-count>button.fn-left {
+	left: 0;
+}
+
+.shop-info-list .shop-content .shop-count>button.fn-right {
+	right: 0;
+}
+
+.shop-info-list .shop-content .shop-count input {
+	position: absolute;
+	top: 34px;
+	left: 0;
+	z-index: 1;
+	width: 100%;
+	height: 30px;
+	border-top: 1px solid #e3e3e3;
+	border-bottom: 1px solid #e3e3e3;
+	text-align: center;
+	line-height: 30px;
+}
+
+.shop-info-list .shop-button div {
+	padding-left: 10px;
+}
+
+.shop-info-list .shop-button div button {
+	display: block;
+	margin-top: 10px;
+	width: 100%;
+	height: 45px;
+	border: 1px solid #666;
+	background: 0 0;
+	color: #676767;
+	text-align: center;
+	font-size: 1pc;
+	line-height: 45px;
+}
+
+.shop-info-list .shop-button button:hover {
+	background: #000;
+	color: #fff;
+}
+
+.shop-info-list .shop-content .shop-collect button {
+	display: block;
+	margin-top: 35px;
+	margin-left: 10%;
+	padding: 0 20px;;
+	height: 30px;
+	border: 1px solid #666;
+	border-radius: 20px;
+	background: 0 0;
+	color: #676767;
+	text-align: center;
+	font-size: 1pc;
+	line-height: 30px;
+}
+/*确认订单*/
+.address-product{
+	padding-top: 50px;
+}
+.address-product > .ad_tt{
+	line-height: 30px;
+	font-size: 14px;
+	color:#333;
+	font-weight: bold;
+}
+.address-product  .ad_cn{
+	border-top:1px #e3e3e3 solid;
+}
+.address-product  .ad_cn > div{
+	border-bottom:1px #e3e3e3 solid;
+}
+.address-product  .ad_cn > div div{
+	min-height: 40px;
+}
+.address-product  .ad_cn > div div.h60{
+	min-height: 60px;
+}
+.address-product  .ad_cn > div div:nth-child(1){
+	background: #fafafa;
+	text-align: right;
+	line-height: 40px;
+}
+.address-product  .ad_cn > div div.h60{
+	
+	line-height: 60px;
+}
+.address-product  .ad_cn > div div:nth-child(2){
+	padding-top: 10px;
+	padding-bottom: 10px;
+	line-height: 20px;
+	padding-left:30px;
+	font-size: 12px;
+
+}
+.address-product  .ad_cn > div div:last-child{
+	line-height: 40px;
+	color: #999;
+	padding-left:5px;
+}
+.address-product  .ad_cn > div div.h60:last-child{
+	line-height: 60px;
+}
+.address-product  .ad_cn > div div:last-child label{
+	margin-bottom: 0px;
+}
+
+/*支付信息*/
+
+.payInfo-product{
+	padding-top: 50px;
+}
+.payInfo-product > .payInfo_tt{
+	line-height: 30px;
+	font-size: 14px;
+	color:#333;
+	font-weight: bold;
+}
+.payInfo-product  .payInfo_cn{
+	border-top:1px #e3e3e3 solid;
+}
+.payInfo-product  .payInfo_cn > div{
+	border-bottom:1px #e3e3e3 solid;
+}
+
+.payInfo-product  .payInfo_cn  .payInfo_msg{
+	height: 140px;
+	line-height: 140px;
+	text-indent: 50px;
+	background: #fafafa;
+}
+.payInfo-product  .payInfo_cn  .payInfo_msg_cn textarea{
+	width: 650px;
+	height: 80px;
+	border:1px #e3e3e3 solid;
+	margin-left:30px;
+	margin-top:30px;
+	resize: none;
+	padding:10px;
+	line-height: 20px;
+	font-size: 12px;
+}
+.payInfo-product  .payInfo_cn  .payInfo_idl{
+	height: 50px;
+	line-height: 50px;
+	text-indent: 50px;
+	background: #fafafa;
+}
+.payInfo-product  .payInfo_cn  .payInfo_idl_cn {
+	
+	margin-left:30px;
+	margin-top:15px;
+	font-size: 12px;
+}
+.payInfo-product  .payInfo_cn  .payInfo_idl_cn input{
+	width: 100%;
+	height: 20px;
+	border:1px #e3e3e3 solid;
+	text-align: center;
+}
+.payInfo-product  .payInfo_cn  .payInfo_idl_cn div:nth-child(2){
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	font-weight: bold;
+}
+.payInfo-product  .payInfo_cn  .payInfo_idl_cn div:nth-child(3){
+	height: 20px;
+	line-height: 20px;
+	text-align: left;
+}
+.payInfo-product  .payInfo_cn  .payInfo_method{
+	height: 50px;
+	line-height: 50px;
+	text-indent: 50px;
+	background: #fafafa;
+}
+.payInfo-product  .payInfo_cn  .payInfo_method_cn {
+	
+	margin-left:30px;
+	margin-top:10px;
+	font-size: 12px;
+}
+.payInfo-product  .payInfo_cn  .payInfo_method_cn > div{
+	padding-left:5px;
+	height: 30px;
+	line-height: 30px;
+}
+.payInfo-product  .payInfo_cn  .payInfo_method_cn > div img{
+	padding-left:15px;
+}
+.payInfo-product  .payInfo_cn  .payInfo_method_cn > div span{
+	height: 30px;
+	line-height: 30px;
+	padding-left:5px;
+	padding-right:5px;
+	margin-left: 10px;
+	border:1px #ddd dashed;
+	display: inline-block;
+	font-size: 12px;
+	color:#00b4f2;
+}
+.payInfo-product  .payInfo_cn  .payInfo_price{
+	text-align: right;
+	background:#fafafa;
+	border-top:1px #333 solid;
+	border-bottom:1px #333 solid;
+	padding: 20px 30px 10px;
+	color:#999;
+	line-height: 20px;
+	font-size: 12px;
+}
+.payInfo-product  .payInfo_cn  .payInfo_price div:last-child{
+	font-size: 16px;
+	color:#666;
+}
+.payInfo-product  .payInfo_cn  .payInfo_price div:last-child span{
+	font-weight: bold;
+	line-height: 30px;
+}
+
+
+.edit-profile{
+	border-top:1px #ddd solid;
+}
+.edit-profile > .row {
+	border-bottom:1px #ddd solid;
+}
+.edit-profile > .row input[type=text]{
+	border:1px #ddd solid;
+	width: 100%;
+	height: 25px;
+}
+.edit-profile > .row:not(:last-child) > div:first-child{
+	text-indent: 25px;
+	min-height:50px;
+	line-height: 50px;
+	background-color: #fbfbfb;
+	color:#666;
+	font-size: 14px;
+}
+.edit-profile > .row > div:last-child{
+	padding-left: 25px;
+	min-height: 50px;
+	line-height: 50px;
+	color:#666;
+	font-size: 14px;
+}
+.edit-profile .linecenter{
+	text-align: center;
+	font-size: 30px;
+}
+.useraddress > .row:first-child > div{
+	height: 50px;
+	line-height: 20px;
+}
+.useraddress .addresstext{
+	width: 100%!important;
+}
+.usermobile input{
+	width: 90%!important;
+}
+.useremail input{
+	width: 87%!important;
+}
+.usermessage div:last-child div{
+	line-height: 50px;
+}
+@media (max-width:768px) {
+	.col-xs-0 {
+		display: none;
+	}
+	.main .container {
+		max-width: 8in;
+		min-width: inherit;
+	}
+	.shop-info-list .content{
+		display: block;
+		text-align: center;
+	}
+	.shop-info-content.row{
+		padding:0 15px;
+	}
+	.shop-info-content {
+	
+		line-height: 50px;
+		border-bottom: 1px #e3e3e3 solid;
+	}
+	.shop-info-list .shop-content .shop-count,
+	.shop-info-list .shop-content .shop-collect,
+	.shop-info-list .shop-content .shop-pic,
+	.shop-info-list .shop-content .shop-select>div,
+	.shop-info-list .shop-content .shop-minus,
+	.shop-info-list .shop-content .shop-product,
+	.shop-info-list .shop-content .shop-productNumber,
+	.shop-info-list .shop-content .shop-date,
+	.shop-info-list .shop-content .shop-integral,
+	.shop-info-list .shop-content .shop-price,
+	.shop-info-list .shop-content .shop-state,
+	.shop-info-list .shop-content .shop-date-month,
+	.shop-info-list .shop-content .shop-star{
+		height: 50px;
+		text-align: center;
+		line-height: 50px;
+	}
+	.shop-info-list .shop-content .h100,
+	.shop-info-list .shop-content .shop-select.h100>div{
+		height: 101px;	
+		line-height: 101px;
+	}
+
+	.shop-info-list .shop-content .shop-minus {
+		color: #999;
+	}
+	.shop-info-list .shop-content .shop-star >ul{
+		margin-top: 0px;
+		margin-left: 50px;
+	}
+
+	.shop-info-list .shop-content .shop-minus input {
+		margin: 0;
+		padding: 0;
+		width: 50px;
+		height: 30px;
+		border: 1px solid #e3e3e3;
+		border-radius: 3px;
+		background-color: none;
+		color: #999;
+		text-align: center;
+		line-height: 30px;
+	}
+	.shop-info-list .shop-button div {
+		margin-left: 0;
+		padding-left: 10px;
+    	padding-right: 10px;
+	}
+
+	.shop-info-list .shop-content .shop-count>button,
+	.shop-info-list .shop-content .shop-count>input {
+		top: 10px;
+	}
+	
+	.shop-info-list .shop-content .shop-collect button {
+		margin-top: 10px;
+	}
+	.address-product  .ad_cn > div div:nth-child(1){
+		background: #e6e6e6;
+		text-align: center;
+		line-height: 40px;
+		font-weight: bolder;
+		color:#333;
+	}
+	.address-product{
+		padding-top:0;
+	}
+	.address-product > .ad_tt{
+		text-align: center;
+		line-height: 80px;
+		font-weight: bolder;
+		color:#333;
+	}
+	.address-product .ad_cn > div div:nth-child(2){
+		    padding-top: 20px;
+    		padding-bottom: 10px;
+    		padding-left:10px;
+    		padding-right: 10px;
+    		font-size: 12px;
+	}
+	.payInfo-product{
+		padding-top: 0;
+	}
+	.payInfo-product > .payInfo_tt{
+		text-align: center;
+		line-height: 80px;
+		font-weight: bolder;
+		color:#333;
+	}
+	.payInfo-product > .payInfo_cn .payInfo_msg{
+		background: #e6e6e6;
+	    text-align: center;
+	    line-height: 40px;
+	    height: 40px;
+	    font-weight: bolder;
+	    color: #333;
+	    text-indent: 0;
+	}
+	.payInfo-product > .payInfo_cn .payInfo_msg_cn {
+		padding:10px;
+	}
+	.payInfo-product > .payInfo_cn .payInfo_msg_cn textarea {
+		width: 100%;
+		height: 80px;
+		margin:0;
+
+	}
+
+	.payInfo-product > .payInfo_cn .payInfo_idl{
+		background: #e6e6e6;
+	    text-align: center;
+	    line-height: 40px;
+	    height: 40px;
+	    font-weight: bolder;
+	    color: #333;
+	    text-indent: 0;
+	}
+	.payInfo-product > .payInfo_cn .payInfo_idl_cn {
+		padding:20px 10px;
+		margin:0;
+	}
+	.payInfo-product > .payInfo_cn .payInfo_method{
+		background: #e6e6e6;
+	    text-align: center;
+	    line-height: 40px;
+	    height: 40px;
+	    font-weight: bolder;
+	    color: #333;
+	    text-indent: 0;
+	}
+	.payInfo-product > .payInfo_cn .payInfo_method_cn {
+		padding:20px 10px;
+		margin:0;
+	}
+
+	.edit-profile > .row:not(:last-child)> div:first-child{
+		text-indent: 0;
+		text-align: center;
+		height:40px;
+		line-height: 40px;
+		background-color: #e6e6e6;
+		color:#333;
+		font-size: 14px;
+		font-weight: bold;
+		border-top:1px #ddd solid;
+	}
+	.edit-profile > .row > div:last-child{
+		text-indent: 0;
+		padding:10px;
+		color:#666;
+		font-size: 14px;
+		text-align: center;
+		height: initial;
+
+	}
+	.edit-profile > .row input[type=text]{
+		width: 50%;
+		margin:0 auto;
+		display: block;
+		height: 40px;
+		line-height: 40px;
+	}
+	.edit-profile  .row.useremail input {
+	    width: 84%!important;
+	    margin:0;
+	    display: inline-block;
+	}
+	.edit-profile  .row.useremail .bootstrap-select .btn{
+		padding:10px 12px;
+	}
+}

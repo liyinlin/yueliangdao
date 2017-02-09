@@ -1,0 +1,64 @@
+.container{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.big_img{
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow: hidden;
+}
+.big_img img,
+.big_img a{
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    overflow: hidden;
+}
+/*标题*/
+.title{
+    font-size: 34px;
+    width: 100%;
+    height: 138px;
+    line-height: 138px;
+    text-align: center;
+    margin-top: 40px;
+    font-weight: bold;
+    color:#fbb0b6;
+}
+@media (max-width:768px){
+    .title{
+        font-size: 24px;
+        height: 80px;
+        line-height: 80px;
+        margin-top: 0px;
+    }
+}
+.container .nav{
+    width: 100%;
+    margin-top: 100px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed #d3d3d3;
+    text-indent: 10px;
+}
+.container .nav p{
+    float: left;
+    font-size: 14px;
+    margin-top: 5px;
+}
+.container .nav p strong{
+    color: #1d1d1d;
+    font-weight: bold;
+    padding-right:18px;
+    margin-right: 13px;
+    border-right: 1px solid #000;
+}
+.container .nav p a{
+    color: #1d1d1d;
+}
+@media (max-width: 768px) {
+    .container .nav{
+        margin-top: 10px;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+}

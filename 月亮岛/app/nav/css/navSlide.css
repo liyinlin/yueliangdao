@@ -1,0 +1,48 @@
+/**
+ * Created by zhangzhengzhe on 2017/1/11.
+ */
+
+
+
+/*正文*/
+
+.mobile .nav-content{
+	max-width: 768px;
+	min-width: initial;
+}
+.nav-content{
+	width: 690px;
+	margin: 100px auto;
+}
+.nav-title{
+	padding: 30px 0px;
+}
+.nav-title a{
+	margin: 0px 10px;
+}
+.n-c-c ul li a{
+	float: left;
+	padding: 6px;
+}
+.n-c-c  ul li a span{
+	text-align: center;
+	margin: 10px;
+}
+.col-xs-6 a span,.col-sm-3 a span{
+	color: #000;
+	font-size: 14px;
+}
+
+.re-co .col-xs-6 a span:nth-child(2),.re-co .col-sm-3 a span:nth-child(2){
+	font-size: 14px;
+	color: #1a1a1a;
+	margin: 10px 10px 0px 10px;
+}
+.col-xs-6 a span:nth-child(2),.col-sm-3 a span:last-child {
+	color: #808080;
+}
+.mobile .rows{
+	width: 100%;
+}
+
+

@@ -1,0 +1,222 @@
+/**
+ * Created by zhangzhengzhe on 2017/1/13.
+ */
+.login{
+    width: 520px;
+    height: 600px;
+    margin: 50px auto;
+    padding: 15px;
+}
+.login h1,.login h5,.login h3{
+    text-align: center;
+}
+.login article:last-child label{
+    font-size: 14px;
+    color: #999c9f;
+}
+.btn{
+    padding: 0px;
+    width: 100%;
+}
+.inps{
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+.btn button{
+    width: inherit;
+    text-align: center;
+    padding: 15px 0px;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background-color: #323232;
+}
+.login-share{
+    padding: 0px;
+    box-sizing: border-box;
+}
+.checkbox{
+    position: relative;
+}
+.checkbox .checkbox-share{
+    float: right;
+    width: 43%;
+    right: 0px;
+    position: relative;
+}
+.checkbox label{
+    float: left;
+}
+.checkbox a,.checkbox input{
+    color: #c7c7c7;
+    padding: 5px;
+    text-decoration: none;
+}
+.checkbox span.share-one a{
+    padding: 0px;
+    display: block;
+    width: inherit;
+    left: 0px;
+    line-height: 30px;
+}
+.checkbox span.share-one{
+    height: 50px;
+    width: 100px;
+    right:-20px;
+    position: absolute;
+}
+/*分享*/
+.login-share{
+    margin-top: -10px;
+    padding: 10px 0px 10px 0px;
+    box-sizing: border-box;
+}
+.share-lg li{
+    text-align: center;
+    color: #c7c7c7;
+    border-right: 1px solid #c7c7c7;
+}
+.login-share .share-lg li a{
+    text-align: center;
+    padding: 10px 0px;
+}
+
+/*手机显示*/
+.share-lg .xs-share{
+    padding-right: 0px;
+    padding-left: 6px;
+    font-size: 12px;
+
+}
+
+/*分享按钮*/
+.share-active{
+    height: 30px;
+}
+.share-active-icon{
+    width: 185px;
+    margin-left: -100px;
+    margin-top: 10px;
+    display: none;
+    border: 1px solid #ccc;
+}
+.share-active-icon span{
+    float: left;
+}
+.share-active-icon span:first-child{
+    width: 14px;
+    height: 14px;
+    margin-left: 135px;
+    margin-top: -10px;
+    background: url("./../img/triangle.png") no-repeat 0 0;
+    background-size: 100% auto;
+}
+.share-active-icon span:nth-child(2){
+    width: inherit;
+}
+.share-active-icon span:nth-child(2) img,.share-active-icon span:nth-child(2) button{
+    float: left;
+    margin: 10px;
+}
+.share-active-icon span:nth-child(2) button{
+    width: initial;
+    padding: 5px 15px;
+    text-align: center;
+    color: #7b7b7b;
+    margin-top: 5px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+
+}
+/*关闭按钮*/
+.login article:last-child #close{
+     width: 100px;
+     padding: 0px 10px;
+     text-align: left;
+     margin: 20px 0px;
+     -webkit-border-radius: 20px;
+     -moz-border-radius: 20px;
+     border-radius: 20px;
+     border: 1px solid #ccc;
+ }
+.login article:last-child #close button{
+    color: #000;
+    width: inherit;
+    padding: 6px 0px;
+    border: none;
+    margin-left: 5px;
+    text-align: center;
+    background-color: #fff;
+}
+
+/*注册*/
+
+
+/*忘记*/
+
+.login article:last-child div:nth-child(3) button a{
+    text-decoration: none;
+    color: #fff;
+}
+.login article:last-child .btn:last-child button{
+    background-color: #fff;
+    color: #212121;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.login article:last-child .btn:last-child button a{
+    color: #000;
+    text-decoration: none;
+}
+
+/*重置*/
+.inp{
+    border-bottom: none;
+    border-radius: 0px;
+}
+
+.form-group{
+    margin-top: 30px;
+}
+.sure{
+    text-align: center;
+    padding: 15px 0px;
+}
+.sure button{
+    color: #fff;
+    font-size: 14px;
+    border: none;
+    padding: 5px 15px;
+    background-color: #000;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.input-group .input-group-addon{
+    color: #b5b5b5;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+.form-group .eyes{
+    position: relative;
+}
+.form-group .eyes span{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    width: 23px;
+    height: 15px;
+    background: url("./../img/closeeyes.png") no-repeat 0 0;
+    background-size: 100% auto;
+}
+.eyes span.active{
+    background: url("./../img/openeyes.png") no-repeat 0 0;
+    background-size: 100% auto;
+}
+

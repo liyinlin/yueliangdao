@@ -1,0 +1,276 @@
+a:hover, a:focus {
+
+    text-decoration: none;
+}
+.container {
+    padding-right:0px;
+    padding-left: 0px;
+}
+.big_swiper,
+.big_swiper .swiper-slide,
+.big_swiper .swiper-slide a,
+.big_swiper .swiper-slide a img{
+    width: 100%;
+    overflow: hidden;
+}
+.big_swiper .swiper-slide a,
+.big_swiper .swiper-slide a img{
+    display: block;
+    text-decoration: none;
+}
+.swiper-button{
+    width: 80px;
+    height: 80px;
+    background: #fff;
+    background-image: none;
+    filter: alpha(opacity=15);
+    opacity: 0.15;
+}
+@media (max-width:768px) {
+    .swiper-button {
+        width: 40px;
+        height: 40px;
+    }
+}
+.swiper-button:hover{
+    filter: alpha(opacity=35);
+    opacity: 0.35;
+}
+.big_swiper .swiper-button-prev{
+    background-image: url(../img/left.png);
+    background-size: 100%;
+    left: 0px;
+}
+.big_swiper .swiper-button-next{
+    background-image: url(../img/right.png);
+    background-size: 100%;
+    right: 0px;
+}
+.ads{
+    margin-top: 94px;
+}
+.ads,
+.ads a,
+.ads a img{
+    display: block;
+    text-decoration: none;
+    width: 100%;
+    overflow: hidden;
+}
+@media (max-width:768px) {
+    .ads {
+        margin-top: 20px;
+    }
+}
+/*广告图*/
+.left_img{
+    width: 400px;
+    position: fixed;
+    top: 15%;
+    left:40px;
+    z-index: 1000;
+}
+@media (max-width:768px){
+    .left_img{
+         display: none;
+     }
+}
+.left_img>img{
+    display: block;
+    overflow: hidden;
+    width: 100%;
+}
+.tools{
+    width: 100%;
+    height: 28px;
+    overflow: hidden;
+    background: #242424;
+    position: relative;
+}
+.content_tool{
+    position: absolute;
+    right: 0px;
+    overflow: hidden;
+}
+.content_tool a,
+.content_tool div{
+    display: block;
+    float: left;
+    cursor: pointer;
+    color: #fff;
+    height: 100%;
+    line-height: 28px;
+}
+.content_tool a span{
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    background: #fff;
+    margin-left: 10px;
+
+}
+.content_tool div{
+    margin-left: 10px;
+    padding: 0 10px;
+}
+.content_tool div span{
+    margin-left: 10px;
+}
+/*标题*/
+.title{
+    font-size: 34px;
+    width: 100%;
+    height: 138px;
+    line-height: 138px;
+    text-align: center;
+    margin-top: 80px;
+    font-weight: bold;
+    color:#202020;
+}
+.title1{
+    height: 75px;
+    line-height: 100px;
+}
+.title span{
+    color: #dedede;
+    margin-left: 10px;
+}
+@media (max-width:768px){
+    .title{
+        font-size: 24px;
+        height: 80px;
+        line-height: 80px;
+        margin-top: 0px;
+    }
+}
+/*倒计时*/
+.djs .row{
+    margin-left: -10px;
+}
+.djs .row .img1{
+    background: #cb8aaa;
+}
+.djs .row .img2{
+    background: #d3c3f4;
+}
+.djs .row .swiper-img{
+    width:100%;
+    margin: 0 auto;
+}
+.djs .row .swiper-img img{
+    width: 473px;
+    margin: 0 auto;
+    padding: 60px 0px;
+}
+.djs .row h4{
+    text-align: center;
+    color: #575757;
+    font-size: 13.3px;
+    margin-top: 29px;
+}
+.djs .info_list{
+    text-align: center;
+}
+.djs .price{
+    width: 100%;
+    overflow: hidden;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.djs .price div{
+    width: 50%;
+    float: left;
+}
+.money{
+    color: #666;
+    text-align: right;
+    line-height: 22px;
+    height: 22px;
+}
+.num span{
+    background: #0e0e0f;
+    padding:0px 4px;
+    color: #fff;
+    border: 1px solid #c0c0c0;
+    /*float: left;*/
+    display:inline-block;
+    margin-left:-5px;
+}
+.num .first{
+    margin-left: 10px;
+}
+.num .dot{
+    border: none;
+    background: none;
+    color: #0e0e0f;
+}
+.djs .info_list>span {
+    font-size: 10px;
+    color: #ff3c5b;
+   padding: 3px 4px 2px;
+    border: 1px solid #c1bdbe;
+    border-radius: 10px;
+    line-height: 10px;
+    margin-right: 2px;
+}
+.more{
+    width: 160px;
+    height: 30px;
+    font-size: 24px;
+    overflow: hidden;
+    border: 1px solid #999999;
+    border-radius: 5px;
+    margin: 20px auto 25px;
+    display: none;
+}
+.more a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    line-height: 30px;
+    text-align: center;
+    font-size: 14px;
+    color:#060001;
+}
+@media (max-width: 768px){
+    .djs .row{
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .djs .row .swiper-img img{
+        width:auto;
+    }
+    .djs .row .swiper-img img{
+        padding: 15px;
+    }
+    .djs .row h4 span{
+        display: none;
+    }
+    .djs .price div{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .more{
+        display: block;
+    }
+}
+/*广告*/
+.ads{
+    margin-bottom: 40px;
+}
+@media (max-width: 768px){
+    .ads{
+        margin-bottom: 0px;
+    }
+}
+.ads,
+.ads a,
+.ads a img{
+    display: block;
+    text-decoration: none;
+    width: 100%;
+    overflow: hidden;
+}
+

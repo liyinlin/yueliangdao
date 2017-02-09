@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>会员登录</title>
+    <link href="app/common/css/reset.css" rel="stylesheet">
+    <link href="app/common/css/bootstrap.css" rel="stylesheet">
+    <link href="app/common/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="app/common/css/common.css" rel="stylesheet">
+    <link href="app/login/css/login.css" rel="stylesheet" />
+    <style type="text/css">
+        .row > div{
+            background:red;
+        }
+        .row{
+            margin-right: 0px;
+            margin-left: 0px;
+        }
+    </style>
+</head>
+<body>
+
+<div id="app" class="main">
+    <div class="container">
+        <section class="login fn-clear">
+            <article class="fn-clear">
+                <h1 style="color: #212121;">LOGIN</h1>
+                <h5 style="color: #949494;">WELCOME TO SHOPPING MALL!</h5>
+            </article>
+            <article class="fn-clear">
+                <div class="form-group">
+                    <label class="control-label" for="username" >会员名</label>
+                    <input type="text" class="form-control input-lg inps" id="username" />
+                </div>
+                <div class="form-group">
+                    <label class="control-label" for="psd">密码</label>
+                    <input type="password" class="form-control input-lg inps" id="psd" />
+                </div>
+
+                <div class="btn fn-clear">
+                    <button type="button" class="">登录</button>
+                </div>
+                <div class="checkbox fn-clear">
+                    <ul class="row login-share fn-clear" id="login-share">
+                        <li class="col-xs-12 col-sm-4" style="border-right: none;">
+                            <label class="">
+                                <input type="checkbox" id="blankCheckbox" value="记住密码" />记住密码
+                            </label>
+                        </li>
+                        <li class="col-xs-12 col-sm-8" style="border-right: none;">
+                            <ul class="col-xs-12 col-sm-12 share-lg">
+                                <li class="col-xs-4 col-sm-4 share-sm">
+                                    <a href="./register.html" class="">注册会员</a>
+                                </li>
+                                <li class="col-xs-4 col-sm-4 share-sm">
+                                    <a href="./forget.html" class="">忘记密码</a>
+                                </li>
+                                <li class="col-xs-4 col-sm-4 share-sm" style="padding-right:0px;border-right: none;">
+                                    <!--<a href="javascript:;" class="">一次性登录</a>-->
+                                    <div class="share-active"><a href="javascript:;">一次性登录</a>
+                                        <div class="share-active-icon fn-clear">
+                                            <span></span>
+                                            <span>
+                                                <a href="javascript:;"><img src="./app/login/img/qq_icon.png" alt="QQ登录"/></a>
+                                                    <a href="javascript:;"><img src="./app/login/img/sina_icon.png" style="margin-left: 0px;" alt="SINA WEIBO登录"/></a>
+                                                <button class="btn">点击登录</button>
+                                            </span>
+                                            <span style="padding-left: 10px;">QQ或SINA WEIBO</span>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+        </section>
+    </div>
+</div>
+<script type="text/javascript" src="./app/common/js/jquery-1.12.0.min.js"></script>
+<script type="text/javascript" src="./app/common/js/jquery-migrate-1.4.1.min.js"></script>
+<script type="text/javascript" src="./app/common/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="app/login/js/login.js"></script>
+</body>
+</html>

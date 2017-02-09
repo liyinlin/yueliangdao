@@ -1,0 +1,29 @@
+.about_us{
+	padding: 63px 70px 100px;
+}
+.about_us h3{
+	text-align: center;
+	color: #212121;
+	font-weight: bold;
+	margin: 0;
+}
+.about_us .p1{
+	margin-top: 63px;
+}
+.about_us p{
+	color: #a2a2a2;
+	line-height: 21px;
+	text-align: justify;
+	margin: 45px 0 0;
+}
+/*============手机端样式==========*/
+.mobile .about_us{
+	padding:0 0 190px 0; 
+}
+.mobile .about_us h3{
+	display: none;
+}
+.mobile .about_us .p1{
+	margin-top: 45px;
+}
+
